@@ -1,5 +1,11 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'pry'
-gem 'sqlite3'
+gem "activesupport"
+gem "pry"
+gem "rspec"
+gem "rubocop"
+gem "rubocop-rspec"
+gem "sqlite3"
+
+ruby "3.3.5"
