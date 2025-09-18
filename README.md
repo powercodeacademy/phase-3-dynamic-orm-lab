@@ -19,7 +19,6 @@ Now that we've had some practice with this, let's build out a dynamic ORM that c
 
 In the `lib` directory, you'll see the `interactive_record.rb` file. This file is where almost all of your ORM code will live. Once you set this up, you will share the methods in this class with the child class.
 
-
 ### The Child Class
 
 Your `Student` class lives in `lib/student.rb`. This class will inherit from `InteractiveRecord`. ***Your methods won't be written in this class.*** All of the methods defined in `InteractiveRecord` will be available to `Student` once you set up the inheritance.
